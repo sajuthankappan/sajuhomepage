@@ -1,0 +1,15 @@
+body{font-family: Ubuntu,arial,sans-serif;font-size: small}
+#fullbody {max-width: 800px}
+#topbar {white-space: nowrap}
+#topbar ul {list-style-type:none;margin:0;padding:0;padding-bottom:6px}
+#topbar ul li {display:inline;}
+#topbar ul li a {text-decoration:none;padding:6px;text-align:center;}
+/*#topbar ul li a:hover,a.active {background-color:#D3D3D3;}*/
+#topbar ul li a:hover,a.active {border-bottom: solid;}
+.center {text-align: center}
+.sitestable {width: 100%}
+pre{border:#999999 solid thin;margin-right:20px; margin-left:20px;padding:12px;}
+.tipgui{margin-right:20px; margin-left:20px;}
+.tipnote{font-size:50%}
+#linkscontainer ul {list-style-type:none;margin:0;padding:0;padding-top:6px;padding-bottom:6px}
+.bold {font-weight: bold;}

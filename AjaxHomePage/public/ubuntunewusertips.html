@@ -1,0 +1,112 @@
+<h1>Ubuntu New User Tips<br></h1>
+<h2>Open Run Application Dialog</h2>
+<div class=tipgui>Press Alt + F2</div>
+<br/>
+
+<h2>Open Terminal (Command Prompt)</h2>
+<div class=tipgui>Applications -> Accessories -> Terminal<br/>&nbsp;&nbsp;or<br/>Press Alt + F2 and type gnome-terminal</div>
+<br/>
+
+<h2>Open Task Manager</h2>
+<h3>GUI</h3>
+<div class=tipgui>System -&gt; Administration -&gt; System Manager</div>
+<br/>
+
+<h2>Installing Flash Plugin</h2>
+<h3>GUI:</h3>
+<div class=tipgui>Run Synaptic and install "flashplugin-installer"</div>
+<h3>CLI:</h3>
+<pre>sudo apt-get install flashplugin-installer</pre>
+<br/>
+
+<h2>Installing MP3 Codec</h2>
+<div class=tipgui>Use File Manager and double click on any mp3 file and follow system prompts to install codecs</div>
+<br/>
+
+<h2>Watching (Encrypted) DVDs</h2>
+<h3>CLI:</h3>
+<pre>sudo apt-get install libdvdcss2
+sudo /usr/share/doc/libdvdread4/install-css.sh</pre>
+
+<h3>Alternate Way: (Using Medibuntu Repository)</h3>
+<h3>GUI:</h3>
+<div class=tipgui>Run Synaptic and add the following medibuntu repository (Settings -&gt; Repository -&gt; Other Softwre -&gt; Add)<br/>
+deb http://packages.medibuntu.org/ jaunty free non-free<br/>
+Press Reload toolbar button<br/><br/>
+
+Install the following packages<br/>
+libdvdcss2 libdvdread4</div>
+<h3>CLI:</h3>
+<pre>sudo gedit /etc/apt/sources.list</pre>
+<div class=tipgui>
+and add the following line at the end:<br/>
+deb http://packages.medibuntu.org/ jaunty free non-free<br/>
+</div>
+<pre>sudo apt-get update
+sudo apt-get install libdvdcss2 libdvdread</pre>
+
+<h2>Useful Windows Equivalent Applications</h2>
+<table width=500px>
+<tr class=header> <td> Windows Application </td> <td> Ubuntu Application </td> </tr>
+<tr> <td> Internet Explorer </td> <td> Firefox </td> </tr>
+<tr> <td> Outlook </td> <td> Evolution </td> </tr>
+<tr> <td> MS Office </td> <td> Openoffice.org </td> </tr>
+<tr> <td> Windows Media Player </td> <td> VLC </td> </tr>
+<tr> <td> iTunes </td> <td> Banshee </td> </tr>
+<tr> <td> Photoshop </td> <td> GIMP </td> </tr>
+<tr> <td> Windows Movie Maker </td> <td> OpenShot </td> </tr>
+<tr> <td> Yahoo Messenger / Google Talk </td> <td> Empathy / Pidgin </td> </tr>
+<tr> <td> uTorrent </td> <td> Transmission </td> </tr>
+</table>
+<br/>
+
+<h2>Useful Ubuntu Applications</h2>
+<table width=500px>
+<tr class=header> <td> Application </td> <td>Description </td> </tr>
+<tr> <td> Gnome Do </td> <td> Applicatoin Launcher (Better than Run Dialog) </td> </tr>
+<tr> <td> gmountiso </td> <td> Mount CD images including iso files </td> </tr>
+<tr> <td> unetbootin </td> <td> Create bootable USB drive for a linux distro</td> </tr>
+<tr> <td> cups-pdf</td> <td> Printing to pdf files </td> </tr>
+<tr> <td> k3b / Brasero </td> <td> CD / DVD Burner </td> </tr>
+<tr> <td> HandBrakd / dvdrip </td> <td> Rip dvds to divx/mpeg movies </td> </tr>
+</table>
+<br/>
+
+<h2>Useful Multi-platform (Windows / Ubuntu) Applications</h2>
+<table width=500px>
+<tr class=header> <td> Application </td> <td>Description </td> </tr>
+<tr> <td> Openoffice.org </td> <td> Word Processor, Spreadsheet, Presentation </td> </tr>
+<tr> <td> Skype </td> <td> Instant Messenger, Voice Chat </td> </tr>
+<tr> <td> Firefox </td> <td> Internet Browser</td> </tr>
+<tr> <td> Google Chrome </td> <td> Internet Browser (Currently Beta in Ubuntu) </td> </tr>
+<tr> <td> VLC </td> <td> Media player </td> </tr>
+<tr> <td> GIMP / dvdrip </td> <td> Graphics Designing Application </td> </tr>
+<tr> <td> Pidgin / dvdrip </td> <td> Instant Messenger </td> </tr>
+<tr> <td> Dia / dvdrip </td> <td> Visio like diagram tool </td> </tr>
+</table>
+<br/>
+
+<h2>Useful Web Applications</h2>
+<table width=800px>
+<tr class=header> <td> Application </td> <td> Url </td> <td>Description </td> </tr>
+<tr> <td> GMail </td> <td> <a href="http://gmail.com"> http://gmail.com</a> </td> <td> Email </td> </tr>
+<tr> <td> Google Docs </td> <td> <a href="http://docs.google.com"> http://docs.google.com</a> </td> <td> Word Processor, Spreadsheet, Presentation, PDF Viewer </td> </tr>
+<tr> <td> Google Reader </td> <td> <a href="http://www.google.com/reader"> http://www.google.com/reader</a> </td> <td> RSS Reader </td> </tr>
+<tr> <td> Google Calendar </td> <td> <a href="http://www.google.com/calendar"> http://www.google.com/calendar</a> </td> <td> Calendar </td> </tr>
+<tr> <td> Zoho Suite </td> <td> <a href="http://www.zoho.com"> http://www.zoho.com </a></td> <td> Word Processor, Spreadsheet, Presentation, and a lot more </td> </tr>
+<tr> <td> Photoshop Online </td> <td> <a href="https://www.photoshop.com"> https://www.photoshop.com </a> </td> <td> Photoshop lighter & online version </td> </tr>
+<tr> <td> Sumo Paint </td> <td> <a href="http://sumopaint.com/app"> http://sumopaint.com/app </a> </td> <td> Similar to MS Paint </td> </tr>
+</table>
+<br/>
+
+<div class=tipnote>* Getting used to multi-platform and web applications makes it a lot easier to switch between multiple operating systems.</div>
+<br/>
+
+<h2>Gaming in Ubuntu</h2>
+<div class=tipgui>Ubuntu is not suited for hardcore gamers. Some windows games can be made to run using the application 'wine' (A windows api emulator). But the results may vary. 
+<br/>
+See <a href=http://appdb.winehq.org>http://appdb.winehq.org</a> and <a href=http://www.winehq.org>http://www.winehq.org</a> for more details
+</div>
+<br/>
+<div style="text-align:right" class="tm"><a href=#linux>Back to Linux</a></div>
+<br/>
