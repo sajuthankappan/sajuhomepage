@@ -1,0 +1,27 @@
+application: clicksaju
+version: 3
+runtime: python
+api_version: 1
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /clicksaju\.appcache
+  static_files: clicksaju.appcache
+  mime_type: text/cache-manifest
+  upload: clicksaju\.appcache
+  expiration: "0s"
+
+- url: /.*
+  script: clicksaju.py
