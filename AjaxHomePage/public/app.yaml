@@ -1,7 +1,8 @@
-application: clicksaju
-version: 3
-runtime: python
+application: clicksaju-hrd
+version: 4
+runtime: python27
 api_version: 1
+threadsafe: yes
 
 handlers:
 - url: /css
@@ -24,4 +25,4 @@ handlers:
   expiration: "0s"
 
 - url: /.*
-  script: clicksaju.py
+  script: clicksaju.app
